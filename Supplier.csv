@@ -1,0 +1,21 @@
+ID,Name,Age,Gender,Salary,Designation,Address,Contact,Status,Category,Company
+10000,Bilal,20,Male,10000,Supplier,abc,123,Active,Biscuit,LU
+10001,Mohammad Owais,20,Male,10000,Supplier,abc,123,Active,Biscuit,Peakfreans
+10002,Maham Shoaib,20,Male,10000,Supplier,abc,123,Active,Chips,Lays
+10003,Sohail Zia,20,Male,10000,Supplier,abc,123,Active,Soap,Lifebuoy
+10004,Muhammad Adnan,20,Male,10000,Supplier,abc,123,Active,Soap,Safeguard
+10005,Uneeb Ahmed Faridy,20,Male,10000,Supplier,abc,123,Active,Detergent,Surf Excel
+10006,Abdul Rehman,20,Male,10000,Supplier,abc,123,Active,Detergent,Ariel
+10007,Ammar Gadit,20,Male,10000,Supplier,abc,123,Active,Cricket,Kukaburra
+10008,Shaheer Amin,20,Female,10000,Supplier,abc,123,Active,Men Clothes,Junaid Jamshed
+10009,Muhammad Mujtaba,20,Male,10000,Supplier,abc,123,Active,Women Clothes,Khaadi
+10010,Huzaifa Mughal,20,Male,10000,Supplier,abc,123,Active,Football,Adidas
+10011,Om Parkash,20,Male,10000,Supplier,abc,123,Active,Football,Nike
+10012,Sajjal Malik,20,Female,10000,Supplier,abc,123,Active,Shoes,Adidas
+10013,Salar Ali,20,Female,10000,Supplier,abc,123,Active,Shoes,Nike
+10014,Arika Masroor,20,Male,10000,Supplier,abc,123,Active,Shoes,Puma
+10015,Ahmed Raza,20,Male,10000,Supplier,abc,123,Active,Refrigerator,PELL
+10016,Muhammad Sohail,20,Male,10000,Supplier,abc,123,Active,Refrigerator,Dawlence
+10017,Alishba Khamisani,20,Male,10000,Supplier,abc,123,Active,AC,PELL
+10018,Safeer Ahmed,20,Male,10000,Supplier,abc,123,Active,AC,Dawlence
+10019,Saad Idrees,20,Male,10000,Supplier,abc,123,Leave,AC,Haier

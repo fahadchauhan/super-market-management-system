@@ -1,0 +1,73 @@
+# Project: Super Market Management
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = main.o Account.o Person.o Customer.o CustomerInventory.o AdminInventory.o Item.o Admin.o Employee.o Supplier.o Worker.o Cashier.o Wallet_Parking.o Guard.o ATM.o ShoppingCart.o
+LINKOBJ  = main.o Account.o Person.o Customer.o CustomerInventory.o AdminInventory.o Item.o Admin.o Employee.o Supplier.o Worker.o Cashier.o Wallet_Parking.o Guard.o ATM.o ShoppingCart.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib32" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -m32 -pg
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = "Super Market Management.exe"
+CXXFLAGS = $(CXXINCS) -m32 -pg
+CFLAGS   = $(INCS) -m32 -pg
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+Account.o: Account.cpp
+	$(CPP) -c Account.cpp -o Account.o $(CXXFLAGS)
+
+Person.o: Person.cpp
+	$(CPP) -c Person.cpp -o Person.o $(CXXFLAGS)
+
+Customer.o: Customer.cpp
+	$(CPP) -c Customer.cpp -o Customer.o $(CXXFLAGS)
+
+CustomerInventory.o: CustomerInventory.cpp
+	$(CPP) -c CustomerInventory.cpp -o CustomerInventory.o $(CXXFLAGS)
+
+AdminInventory.o: AdminInventory.cpp
+	$(CPP) -c AdminInventory.cpp -o AdminInventory.o $(CXXFLAGS)
+
+Item.o: Item.cpp
+	$(CPP) -c Item.cpp -o Item.o $(CXXFLAGS)
+
+Admin.o: Admin.cpp
+	$(CPP) -c Admin.cpp -o Admin.o $(CXXFLAGS)
+
+Employee.o: Employee.cpp
+	$(CPP) -c Employee.cpp -o Employee.o $(CXXFLAGS)
+
+Supplier.o: Supplier.cpp
+	$(CPP) -c Supplier.cpp -o Supplier.o $(CXXFLAGS)
+
+Worker.o: Worker.cpp
+	$(CPP) -c Worker.cpp -o Worker.o $(CXXFLAGS)
+
+Cashier.o: Cashier.cpp
+	$(CPP) -c Cashier.cpp -o Cashier.o $(CXXFLAGS)
+
+Wallet_Parking.o: Wallet_Parking.cpp
+	$(CPP) -c Wallet_Parking.cpp -o Wallet_Parking.o $(CXXFLAGS)
+
+Guard.o: Guard.cpp
+	$(CPP) -c Guard.cpp -o Guard.o $(CXXFLAGS)
+
+ATM.o: ATM.cpp
+	$(CPP) -c ATM.cpp -o ATM.o $(CXXFLAGS)
+
+ShoppingCart.o: ShoppingCart.cpp
+	$(CPP) -c ShoppingCart.cpp -o ShoppingCart.o $(CXXFLAGS)
